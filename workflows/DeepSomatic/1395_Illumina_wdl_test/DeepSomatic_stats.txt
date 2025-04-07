@@ -1,0 +1,59 @@
+Batch System: single_machine
+Default Cores: 1  Default Memory: 2097152KiB
+Max Cores: 64
+Local CPU Time: 207341.99 core·s  Overall Runtime: 2448.89 s
+Worker
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        5 |     0.07    0.10  488.12 2410.26 2440.59 |       0.05      0.08  41463.51 207115.27 207317.54 |  -52858.57      0.01 -10600.09      0.02 -53000.43 |    109192Ki   110448Ki  3773275Ki 17557812Ki 18866376Ki |      4Ki     8Ki  2369Ki 11664Ki 11848Ki
+Job
+ Worker Jobs  |     min    med    ave    max
+              |       1      1    1.8      4
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        9 |     0.01    0.01  271.14 2410.21 2440.28 |       0.01      0.01  23035.25 207115.22 207317.29 |  -52861.93      0.00  -5889.32      0.00 -53003.92 |    108760Ki   109816Ki  2144848Ki 17557812Ki 19303632Ki |      4Ki     8Ki  1319Ki 11664Ki 11876Ki
+ DeepSomatic.deepSomatic.command
+    Total Cores: 64.0
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        1 |  2410.21 2410.21 2410.21 2410.21 2410.21 |  207115.22 207115.22 207115.22 207115.22 207115.22 |  -52861.93 -52861.93 -52861.93 -52861.93 -52861.93 |  17557812Ki 17557812Ki 17557812Ki 17557812Ki 17557812Ki |  11664Ki 11664Ki 11664Ki 11664Ki 11664Ki
+ DeepSomatic.postProcess.command
+    Total Cores: 2.0
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        1 |    30.01   30.01   30.01   30.01   30.01 |     202.02    202.02    202.02    202.02    202.02 |    -141.99   -141.99   -141.99   -141.99   -141.99 |    978580Ki   978580Ki   978580Ki   978580Ki   978580Ki |    164Ki   164Ki   164Ki   164Ki   164Ki
+ WDLRootJob
+    Total Cores: 1.0
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        1 |     0.01    0.01    0.01    0.01    0.01 |       0.01      0.01      0.01      0.01      0.01 |       0.00      0.00      0.00      0.00      0.00 |    108760Ki   108760Ki   108760Ki   108760Ki   108760Ki |      4Ki     4Ki     4Ki     4Ki     4Ki
+ WDLWorkflowJob
+    Total Cores: 1.0
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        1 |     0.01    0.01    0.01    0.01    0.01 |       0.01      0.01      0.01      0.01      0.01 |       0.00      0.00      0.00      0.00      0.00 |    109288Ki   109288Ki   109288Ki   109288Ki   109288Ki |      8Ki     8Ki     8Ki     8Ki     8Ki
+ DeepSomatic.deepSomatic.inputs
+    Total Cores: 1.0
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        1 |     0.01    0.01    0.01    0.01    0.01 |       0.01      0.01      0.01      0.01      0.01 |       0.00      0.00      0.00      0.00      0.00 |    110344Ki   110344Ki   110344Ki   110344Ki   110344Ki |      8Ki     8Ki     8Ki     8Ki     8Ki
+ call-postProcess
+    Total Cores: 1.0
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        1 |     0.01    0.01    0.01    0.01    0.01 |       0.01      0.01      0.01      0.01      0.01 |      -0.00     -0.00     -0.00     -0.00     -0.00 |    109392Ki   109392Ki   109392Ki   109392Ki   109392Ki |      8Ki     8Ki     8Ki     8Ki     8Ki
+ DeepSomatic.postProcess.inputs
+    Total Cores: 1.0
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        1 |     0.01    0.01    0.01    0.01    0.01 |       0.01      0.01      0.01      0.01      0.01 |       0.00      0.00      0.00      0.00      0.00 |    110448Ki   110448Ki   110448Ki   110448Ki   110448Ki |      8Ki     8Ki     8Ki     8Ki     8Ki
+ call-deepSomatic
+    Total Cores: 1.0
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        1 |     0.01    0.01    0.01    0.01    0.01 |       0.01      0.01      0.01      0.01      0.01 |       0.00      0.00      0.00      0.00      0.00 |    109816Ki   109816Ki   109816Ki   109816Ki   109816Ki |      8Ki     8Ki     8Ki     8Ki     8Ki
+ WDLOutputsJob
+    Total Cores: 1.0
+    Count |                           Real Time (s)* |                                  CPU Time (core·s) |                                  CPU Wait (core·s) |                                              Memory (B) |                                 Disk (B) 
+        n |      min    med*     ave     max   total |        min       med       ave       max     total |        min       med       ave       max     total |         min        med        ave        max      total |      min     med     ave     max   total 
+        1 |     0.01    0.01    0.01    0.01    0.01 |       0.01      0.01      0.01      0.01      0.01 |       0.00      0.00      0.00      0.00      0.00 |    109192Ki   109192Ki   109192Ki   109192Ki   109192Ki |      4Ki     4Ki     4Ki     4Ki     4Ki
