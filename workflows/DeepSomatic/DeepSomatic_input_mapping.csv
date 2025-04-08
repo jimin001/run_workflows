@@ -12,7 +12,8 @@ DeepSomatic.deepSomatic.reference_idx,scalar,$input.reference_idx
 DeepSomatic.deepSomatic.sample_name_tumor,scalar,$input.sample_name_tumor
 DeepSomatic.deepSomatic.sample_name_normal,scalar,$input.sample_name_normal
 DeepSomatic.deepSomatic.log_dir_path,scalar,$input.log_dir_path
-DeepSomatic.deepSomatic.model_file_tar,scalar,$input.model_file_tar
+DeepSomatic.deepSomatic.model_file,scalar,$input.model_file
+DeepSomatic.deepSomatic.model_file_idx,scalar,$input.model_file_idx
 DeepSomatic.deepSomatic.custom_model,scalar,$input.custom_model
 DeepSomatic.deepSomatic.threadCount,scalar,64
 DeepSomatic.deepSomatic.diskSizeGB,scalar,256
