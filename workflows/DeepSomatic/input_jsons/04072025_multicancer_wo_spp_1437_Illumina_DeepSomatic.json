@@ -13,7 +13,7 @@
   "DeepSomatic.deepSomatic.sample_name_normal": "1437_Illumina_normal",
   "DeepSomatic.deepSomatic.log_dir_path": "logs",
   "DeepSomatic.deepSomatic.model_file_tar": "/private/groups/patenlab/jimin/data/DeepSomatic/model/04072025_multicancer_wo_spp.tar.gz",
-  "DeepSomatic.deepSomatic.custom_model": "checkpoint-243200-0.93413-2",
+  "DeepSomatic.deepSomatic.custom_model": "checkpoint-243200-0.93413-1",
   "DeepSomatic.deepSomatic.threadCount": 64,
   "DeepSomatic.deepSomatic.diskSizeGB": 256,
   "DeepSomatic.deepSomatic.memSizeGB": 256
