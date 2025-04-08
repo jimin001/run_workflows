@@ -14,7 +14,7 @@
   "DeepSomatic.deepSomatic.log_dir_path": "logs",
   "DeepSomatic.deepSomatic.model_file": "/private/groups/patenlab/jimin/data/DeepSomatic/model/04072025_multicancer_wo_spp/checkpoint-243200-0.93413-1.data-00000-of-00001",
   "DeepSomatic.deepSomatic.model_file_idx": "/private/groups/patenlab/jimin/data/DeepSomatic/model/04072025_multicancer_wo_spp/checkpoint-243200-0.93413-1.index",
-  "DeepSomatic.deepSomatic.custom_model": "checkpoint-243200-0.93413-1",
+  "DeepSomatic.deepSomatic.custom_model": "/private/groups/patenlab/jimin/data/DeepSomatic/model/04072025_multicancer_wo_spp/checkpoint-243200-0.93413-1",
   "DeepSomatic.deepSomatic.threadCount": 64,
   "DeepSomatic.deepSomatic.diskSizeGB": 256,
   "DeepSomatic.deepSomatic.memSizeGB": 256
