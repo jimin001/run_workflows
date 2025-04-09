@@ -2,7 +2,7 @@
   "DeepSomatic.output_prefix": "04072025_multicancer_wo_spp_1437_Illumina_wg",
   "DeepSomatic.deepSomatic.docker_image": "google/deepsomatic:1.8.0",
   "DeepSomatic.deepSomatic.model_type": "WGS",
-  "DeepSomatic.deepSomatic.additional_args": NaN,
+  "DeepSomatic.deepSomatic.additional_args": "None",
   "DeepSomatic.deepSomatic.tumor_bam": "/private/groups/patenlab/jimin/data/bams/illumina_bams/1437/1437_Illumina_Tumor.GRCh38.addreadgroup.100x.sorted.bam",
   "DeepSomatic.deepSomatic.tumor_bam_idx": "/private/groups/patenlab/jimin/data/bams/illumina_bams/1437/1437_Illumina_Tumor.GRCh38.addreadgroup.100x.sorted.bam.bai",
   "DeepSomatic.deepSomatic.normal_bam": "/private/groups/patenlab/jimin/data/bams/illumina_bams/1437/1437_Illumina_Normal.GRCh38.addreadgroup.50x.sorted.bam",
