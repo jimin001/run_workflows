@@ -15,6 +15,7 @@ DeepSomatic.deepSomatic.log_dir_path,scalar,$input.log_dir_path
 DeepSomatic.deepSomatic.model_file,scalar,$input.model_file
 DeepSomatic.deepSomatic.model_file_idx,scalar,$input.model_file_idx
 DeepSomatic.deepSomatic.custom_model,scalar,$input.custom_model
+DeepSomatic.deepSomatic.model_file_example,scalar,$input.model_file_example
 DeepSomatic.deepSomatic.threadCount,scalar,64
 DeepSomatic.deepSomatic.diskSizeGB,scalar,256
 DeepSomatic.deepSomatic.memSizeGB,scalar,256

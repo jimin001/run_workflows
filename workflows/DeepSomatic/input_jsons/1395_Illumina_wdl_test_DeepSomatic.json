@@ -15,6 +15,7 @@
   "DeepSomatic.deepSomatic.model_file": NaN,
   "DeepSomatic.deepSomatic.model_file_idx": NaN,
   "DeepSomatic.deepSomatic.custom_model": NaN,
+  "DeepSomatic.deepSomatic.model_file_example": NaN,
   "DeepSomatic.deepSomatic.threadCount": 64,
   "DeepSomatic.deepSomatic.diskSizeGB": 256,
   "DeepSomatic.deepSomatic.memSizeGB": 256
