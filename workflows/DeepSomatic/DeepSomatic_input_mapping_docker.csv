@@ -1,0 +1,17 @@
+input,type,value
+DeepSomatic.output_prefix,scalar,$input.output_prefix
+DeepSomatic.deepSomatic.docker_image,scalar,$input.docker_image
+DeepSomatic.deepSomatic.model_type,scalar,$input.model_type
+DeepSomatic.deepSomatic.additional_args,scalar,$input.additional_args
+DeepSomatic.deepSomatic.tumor_bam,scalar,$input.tumor_bam
+DeepSomatic.deepSomatic.tumor_bam_idx,scalar,$input.tumor_bam_idx
+DeepSomatic.deepSomatic.normal_bam,scalar,$input.normal_bam
+DeepSomatic.deepSomatic.normal_bam_idx,scalar,$input.normal_bam_idx
+DeepSomatic.deepSomatic.reference,scalar,$input.reference
+DeepSomatic.deepSomatic.reference_idx,scalar,$input.reference_idx
+DeepSomatic.deepSomatic.sample_name_tumor,scalar,$input.sample_name_tumor
+DeepSomatic.deepSomatic.sample_name_normal,scalar,$input.sample_name_normal
+DeepSomatic.deepSomatic.log_dir_path,scalar,$input.log_dir_path
+DeepSomatic.deepSomatic.threadCount,scalar,64
+DeepSomatic.deepSomatic.diskSizeGB,scalar,256
+DeepSomatic.deepSomatic.memSizeGB,scalar,256
