@@ -1,0 +1,22 @@
+{
+  "DeepSomatic.output_prefix": "04072025_multicancer_1395_Illumina_36xT_24xN_chr1",
+  "DeepSomatic.deepSomatic.docker_image": "google/deepsomatic:1.8.0",
+  "DeepSomatic.deepSomatic.model_type": "WGS",
+  "DeepSomatic.deepSomatic.additional_args": "--regions=chr1",
+  "DeepSomatic.deepSomatic.tumor_bam": "/private/groups/patenlab/jimin/data/bams/illumina_bams/1395/titration_experiment/1395_tumor_purity_titration/1395_Illumina.GRCh38.36xT_24xN.bam",
+  "DeepSomatic.deepSomatic.tumor_bam_idx": "/private/groups/patenlab/jimin/data/bams/illumina_bams/1395/titration_experiment/1395_tumor_purity_titration/1395_Illumina.GRCh38.36xT_24xN.bam.bai",
+  "DeepSomatic.deepSomatic.normal_bam": "/private/groups/patenlab/jimin/data/bams/illumina_bams/1395/split_bam/1395_Illumina_Normal.GRCh38.35x.bam",
+  "DeepSomatic.deepSomatic.normal_bam_idx": "/private/groups/patenlab/jimin/data/bams/illumina_bams/1395/split_bam/1395_Illumina_Normal.GRCh38.35x.bam.bai",
+  "DeepSomatic.deepSomatic.reference": "/private/groups/patenlab/jimin/data/reference/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna",
+  "DeepSomatic.deepSomatic.reference_idx": "/private/groups/patenlab/jimin/data/reference/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.fai",
+  "DeepSomatic.deepSomatic.sample_name_tumor": "1395_Illumina_tumor",
+  "DeepSomatic.deepSomatic.sample_name_normal": "1395_Illumina_normal",
+  "DeepSomatic.deepSomatic.log_dir_path": "logs",
+  "DeepSomatic.deepSomatic.model_file": "/private/groups/patenlab/jimin/data/DeepSomatic/model/04072025_multicancer_wo_spp/checkpoint-243200-0.93413-1.data-00000-of-00001",
+  "DeepSomatic.deepSomatic.model_file_idx": "/private/groups/patenlab/jimin/data/DeepSomatic/model/04072025_multicancer_wo_spp/checkpoint-243200-0.93413-1.index",
+  "DeepSomatic.deepSomatic.custom_model": "checkpoint-243200-0.93413-1",
+  "DeepSomatic.deepSomatic.model_file_example": "/private/groups/patenlab/jimin/data/DeepSomatic/model/04072025_multicancer_wo_spp/example_info.json",
+  "DeepSomatic.deepSomatic.threadCount": 64,
+  "DeepSomatic.deepSomatic.diskSizeGB": 256,
+  "DeepSomatic.deepSomatic.memSizeGB": 256
+}
