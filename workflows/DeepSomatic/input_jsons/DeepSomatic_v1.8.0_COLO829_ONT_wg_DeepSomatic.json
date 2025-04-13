@@ -1,7 +1,7 @@
 {
   "DeepSomatic.output_prefix": "DeepSomatic_v1.8.0_COLO829_ONT_wg",
   "DeepSomatic.deepSomatic.docker_image": "google/deepsomatic:1.8.0",
-  "DeepSomatic.deepSomatic.model_type": "ONT_R104",
+  "DeepSomatic.deepSomatic.model_type": "ONT",
   "DeepSomatic.deepSomatic.additional_args": "None",
   "DeepSomatic.deepSomatic.tumor_bam": "/private/groups/patenlab/jimin/data/bams/ont_bams/COLO829/COLO829_Tumor_ONT.GRCh38.sorted.bam",
   "DeepSomatic.deepSomatic.tumor_bam_idx": "/private/groups/patenlab/jimin/data/bams/ont_bams/COLO829/COLO829_Tumor_ONT.GRCh38.sorted.bam.bai",
