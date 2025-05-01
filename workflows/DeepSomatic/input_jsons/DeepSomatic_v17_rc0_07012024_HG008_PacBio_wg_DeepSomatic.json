@@ -1,0 +1,18 @@
+{
+  "DeepSomatic.output_prefix": "DeepSomatic_v17_rc0_07012024_HG008_PacBio_wg",
+  "DeepSomatic.deepSomatic.docker_image": "google/deepsomatic:v17_rc0_07012024",
+  "DeepSomatic.deepSomatic.model_type": "PACBIO",
+  "DeepSomatic.deepSomatic.additional_args": "None",
+  "DeepSomatic.deepSomatic.tumor_bam": "/private/groups/patenlab/jimin/data/bams/hifi_bams/HG008/HG008-T_PacBio-HiFi-Revio_20240125_116x_GRCh38-GIABv3.bam",
+  "DeepSomatic.deepSomatic.tumor_bam_idx": "/private/groups/patenlab/jimin/data/bams/hifi_bams/HG008/HG008-T_PacBio-HiFi-Revio_20240125_116x_GRCh38-GIABv3.bam.bai",
+  "DeepSomatic.deepSomatic.normal_bam": "/private/groups/patenlab/jimin/data/bams/hifi_bams/HG008/HG008-N-P_PacBio-HiFi-Revio_20240125_35x_GRCh38-GIABv3.bam",
+  "DeepSomatic.deepSomatic.normal_bam_idx": "/private/groups/patenlab/jimin/data/bams/hifi_bams/HG008/HG008-N-P_PacBio-HiFi-Revio_20240125_35x_GRCh38-GIABv3.bam.bai",
+  "DeepSomatic.deepSomatic.reference": "/private/groups/patenlab/jimin/data/reference/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna",
+  "DeepSomatic.deepSomatic.reference_idx": "/private/groups/patenlab/jimin/data/reference/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.fai",
+  "DeepSomatic.deepSomatic.sample_name_tumor": "HG008_PacBio_tumor",
+  "DeepSomatic.deepSomatic.sample_name_normal": "HG008_PacBio_normal",
+  "DeepSomatic.deepSomatic.log_dir_path": "logs",
+  "DeepSomatic.deepSomatic.threadCount": 64,
+  "DeepSomatic.deepSomatic.diskSizeGB": 256,
+  "DeepSomatic.deepSomatic.memSizeGB": 256
+}
