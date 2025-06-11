@@ -1,5 +1,5 @@
 {
-  "DeepSomatic.output_prefix": "DeepSomatic_v1.8.0_1437_PacBio_wg_36xT_24xN",
+  "DeepSomatic.output_prefix": "DeepSomatic_v1.8.0_1954_PacBio_wg_36xT_24xN",
   "DeepSomatic.deepSomatic.docker_image": "google/deepsomatic:1.8.0",
   "DeepSomatic.deepSomatic.model_type": "PACBIO",
   "DeepSomatic.deepSomatic.additional_args": "None",
