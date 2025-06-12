@@ -1,0 +1,18 @@
+{
+  "DeepSomatic.output_prefix": "DeepSomatic_v1.8.0_1437_ONT_wg_60x_35x",
+  "DeepSomatic.deepSomatic.docker_image": "google/deepsomatic:1.8.0",
+  "DeepSomatic.deepSomatic.model_type": "ONT",
+  "DeepSomatic.deepSomatic.additional_args": "None",
+  "DeepSomatic.deepSomatic.tumor_bam": "/private/groups/patenlab/jimin/data/bams/ont_bams/1437/titration_experiment/1437_coverage_titration/1437_ONT_Tumor.GRCh38.60x.bam",
+  "DeepSomatic.deepSomatic.tumor_bam_idx": "/private/groups/patenlab/jimin/data/bams/ont_bams/1437/titration_experiment/1437_coverage_titration/1437_ONT_Tumor.GRCh38.60x.bam.bai",
+  "DeepSomatic.deepSomatic.normal_bam": "/private/groups/patenlab/jimin/data/bams/ont_bams/1437/1437_ONT_Normal.GRCh38.addreadgroup.sorted.bam",
+  "DeepSomatic.deepSomatic.normal_bam_idx": "/private/groups/patenlab/jimin/data/bams/ont_bams/1437/1437_ONT_Normal.GRCh38.addreadgroup.sorted.bam.bai",
+  "DeepSomatic.deepSomatic.reference": "/private/groups/patenlab/jimin/data/reference/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna",
+  "DeepSomatic.deepSomatic.reference_idx": "/private/groups/patenlab/jimin/data/reference/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.fai",
+  "DeepSomatic.deepSomatic.sample_name_tumor": "1437_ONT_tumor",
+  "DeepSomatic.deepSomatic.sample_name_normal": "1437_ONT_normal",
+  "DeepSomatic.deepSomatic.log_dir_path": "logs",
+  "DeepSomatic.deepSomatic.threadCount": 64,
+  "DeepSomatic.deepSomatic.diskSizeGB": 256,
+  "DeepSomatic.deepSomatic.memSizeGB": 256
+}
